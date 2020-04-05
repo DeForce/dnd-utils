@@ -120,5 +120,5 @@ for page in result:
             'notes': m_item.notes
         }
 
-with open('items.json', 'wb') as f:
+with open('../item-stats/items.json', 'wb') as f:
     json.dump(magic_items, codecs.getwriter('utf-8')(f), ensure_ascii=False, indent=4, sort_keys=True)
