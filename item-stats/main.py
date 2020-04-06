@@ -30,3 +30,4 @@ rarity_sorted_df = rarity_df.sort_values('rarity')
 plot = rarity_sorted_df.plot(kind='bar', color=[RARITY_PRIORITY.values()], legend=False)
 plot.set_xticklabels(RARITY_PRIORITY.keys())
 plt.show()
+pass
